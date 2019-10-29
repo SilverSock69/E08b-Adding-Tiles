@@ -1,5 +1,23 @@
 # E08b-Adding-Tiles
 
+In this repository we will be working with GitHub desktop and Godot. In the repository, the user should be able to play with a paddle and ball. Using the mouse, the paddle will be able to be moved horizontally. Touching the paddle, the ball will fly in the opposite direction. In the game, there will be multiple rows of tiles as well. The tiles will have various colors like red, yellow, blue and green. The end result should resemble a brick breaker game.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 We will continue adding on to the first Godot project (E08a-Paddle-Ball). In this exercise, we will be learning more about groups and scenes and adding tiles to the game.
 
 As usual, Fork and Clone this repository. Pay attention to where (on the file system) it is being saved.
