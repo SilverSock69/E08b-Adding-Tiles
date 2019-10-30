@@ -58,59 +58,153 @@ polygon = PoolVector2Array( 0, 640, 0, 0, 1024, 0, 1024, 640, 1088, 640, 1088, -
 [node name="Tiles" type="Node" parent="Wall/CollisionPolygon2D"]
 
 [node name="Gray Tiles" type="Node" parent="Wall/CollisionPolygon2D/Tiles"]
+editor/display_folded = true
 
 [node name="Tile" parent="Wall/CollisionPolygon2D/Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 62, 313 )
+position = Vector2( 63, 276 )
 
 [node name="Tile2" parent="Wall/CollisionPolygon2D/Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 888, 286 )
+position = Vector2( 794, 276 )
 
 [node name="Tile3" parent="Wall/CollisionPolygon2D/Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 782, 288 )
+position = Vector2( 702, 275 )
 
 [node name="Tile4" parent="Wall/CollisionPolygon2D/Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 162, 323 )
+position = Vector2( 152, 275 )
 
 [node name="Tile5" parent="Wall/CollisionPolygon2D/Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 677, 286 )
+position = Vector2( 611, 275 )
 
 [node name="Tile6" parent="Wall/CollisionPolygon2D/Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 560, 284 )
+position = Vector2( 521, 277 )
 
 [node name="Tile7" parent="Wall/CollisionPolygon2D/Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 458, 294 )
+position = Vector2( 430, 276 )
 
 [node name="Tile8" parent="Wall/CollisionPolygon2D/Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 368, 317 )
+position = Vector2( 331, 277 )
 
 [node name="Tile9" parent="Wall/CollisionPolygon2D/Tiles/Gray Tiles" instance=ExtResource( 5 )]
-position = Vector2( 266, 311 )
+position = Vector2( 241, 276 )
 
 [node name="Red Tiles" type="Node" parent="Wall/CollisionPolygon2D/Tiles"]
+editor/display_folded = true
 
 [node name="Tile" parent="Wall/CollisionPolygon2D/Tiles/Red Tiles" instance=ExtResource( 5 )]
-position = Vector2( 275, 210 )
+position = Vector2( 242, 213 )
 
 [node name="Tile3" parent="Wall/CollisionPolygon2D/Tiles/Red Tiles" instance=ExtResource( 5 )]
-position = Vector2( 382, 209 )
+position = Vector2( 332, 214 )
 
 [node name="Tile2" parent="Wall/CollisionPolygon2D/Tiles/Red Tiles" instance=ExtResource( 5 )]
-position = Vector2( 172, 214 )
+position = Vector2( 151, 213 )
 
 [node name="Tile4" parent="Wall/CollisionPolygon2D/Tiles/Red Tiles" instance=ExtResource( 5 )]
-position = Vector2( 472, 207 )
+position = Vector2( 430, 215 )
 
 [node name="Tile5" parent="Wall/CollisionPolygon2D/Tiles/Red Tiles" instance=ExtResource( 5 )]
-position = Vector2( 547, 205 )
+position = Vector2( 522, 213 )
 
 [node name="Tile6" parent="Wall/CollisionPolygon2D/Tiles/Red Tiles" instance=ExtResource( 5 )]
-position = Vector2( 685, 212 )
+position = Vector2( 611, 212 )
 
 [node name="Tile7" parent="Wall/CollisionPolygon2D/Tiles/Red Tiles" instance=ExtResource( 5 )]
-position = Vector2( 788, 213 )
+position = Vector2( 701, 214 )
 
 [node name="Tile8" parent="Wall/CollisionPolygon2D/Tiles/Red Tiles" instance=ExtResource( 5 )]
-position = Vector2( 63, 211 )
+position = Vector2( 62, 213 )
 
 [node name="Tile9" parent="Wall/CollisionPolygon2D/Tiles/Red Tiles" instance=ExtResource( 5 )]
-position = Vector2( 881, 215 )
+position = Vector2( 791, 213 )
+
+[node name="Green Tiles" type="Node" parent="Wall/CollisionPolygon2D/Tiles"]
+editor/display_folded = true
+
+[node name="Tile" parent="Wall/CollisionPolygon2D/Tiles/Green Tiles" instance=ExtResource( 5 )]
+position = Vector2( 792, 155 )
+
+[node name="Tile2" parent="Wall/CollisionPolygon2D/Tiles/Green Tiles" instance=ExtResource( 5 )]
+position = Vector2( 702, 156 )
+
+[node name="Tile3" parent="Wall/CollisionPolygon2D/Tiles/Green Tiles" instance=ExtResource( 5 )]
+position = Vector2( 612, 155 )
+
+[node name="Tile4" parent="Wall/CollisionPolygon2D/Tiles/Green Tiles" instance=ExtResource( 5 )]
+position = Vector2( 520, 155 )
+
+[node name="Tile5" parent="Wall/CollisionPolygon2D/Tiles/Green Tiles" instance=ExtResource( 5 )]
+position = Vector2( 431, 155 )
+
+[node name="Tile6" parent="Wall/CollisionPolygon2D/Tiles/Green Tiles" instance=ExtResource( 5 )]
+position = Vector2( 330, 154 )
+
+[node name="Tile7" parent="Wall/CollisionPolygon2D/Tiles/Green Tiles" instance=ExtResource( 5 )]
+position = Vector2( 243, 153 )
+
+[node name="Tile8" parent="Wall/CollisionPolygon2D/Tiles/Green Tiles" instance=ExtResource( 5 )]
+position = Vector2( 150, 154 )
+rotation = 0.04077
+
+[node name="Tile9" parent="Wall/CollisionPolygon2D/Tiles/Green Tiles" instance=ExtResource( 5 )]
+position = Vector2( 63, 152 )
+rotation = 3.12834
+
+[node name="Blue Tiles" type="Node" parent="Wall/CollisionPolygon2D/Tiles"]
+editor/display_folded = true
+
+[node name="Tile" parent="Wall/CollisionPolygon2D/Tiles/Blue Tiles" instance=ExtResource( 5 )]
+position = Vector2( 790.994, 96.8753 )
+
+[node name="Tile2" parent="Wall/CollisionPolygon2D/Tiles/Blue Tiles" instance=ExtResource( 5 )]
+position = Vector2( 702.351, 94.5426 )
+
+[node name="Tile3" parent="Wall/CollisionPolygon2D/Tiles/Blue Tiles" instance=ExtResource( 5 )]
+position = Vector2( 614.875, 94.5426 )
+
+[node name="Tile4" parent="Wall/CollisionPolygon2D/Tiles/Blue Tiles" instance=ExtResource( 5 )]
+position = Vector2( 521.567, 94.5427 )
+
+[node name="Tile5" parent="Wall/CollisionPolygon2D/Tiles/Blue Tiles" instance=ExtResource( 5 )]
+position = Vector2( 432.924, 93.3763 )
+
+[node name="Tile6" parent="Wall/CollisionPolygon2D/Tiles/Blue Tiles" instance=ExtResource( 5 )]
+position = Vector2( 332.618, 93.3763 )
+
+[node name="Tile7" parent="Wall/CollisionPolygon2D/Tiles/Blue Tiles" instance=ExtResource( 5 )]
+position = Vector2( 242.809, 94.5426 )
+
+[node name="Tile8" parent="Wall/CollisionPolygon2D/Tiles/Blue Tiles" instance=ExtResource( 5 )]
+position = Vector2( 151.834, 95.709 )
+
+[node name="Tile9" parent="Wall/CollisionPolygon2D/Tiles/Blue Tiles" instance=ExtResource( 5 )]
+position = Vector2( 60.8583, 95.709 )
+
+[node name="Purple Tiles" type="Node" parent="Wall/CollisionPolygon2D/Tiles"]
+editor/display_folded = true
+
+[node name="Tile" parent="Wall/CollisionPolygon2D/Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 703.518, 37.3915 )
+
+[node name="Tile2" parent="Wall/CollisionPolygon2D/Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 614.875, 37.3914 )
+
+[node name="Tile3" parent="Wall/CollisionPolygon2D/Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 518.068, 36.2251 )
+
+[node name="Tile4" parent="Wall/CollisionPolygon2D/Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 431.758, 35.0587 )
+
+[node name="Tile5" parent="Wall/CollisionPolygon2D/Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 331.452, 30.3933 )
+
+[node name="Tile6" parent="Wall/CollisionPolygon2D/Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 242.809, 35.0588 )
+
+[node name="Tile7" parent="Wall/CollisionPolygon2D/Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 149.501, 31.5597 )
+
+[node name="Tile8" parent="Wall/CollisionPolygon2D/Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 60.8583, 36.2251 )
+
+[node name="Tile9" parent="Wall/CollisionPolygon2D/Tiles/Purple Tiles" instance=ExtResource( 5 )]
+position = Vector2( 790.994, 37.3915 )
